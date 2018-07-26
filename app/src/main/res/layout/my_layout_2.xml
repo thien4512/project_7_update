@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF8D"    >
+   <!-- tools:context="com.example.thien.project_4.my_javaclass_2"> -->
+
+    <CheckBox
+        android:id="@+id/myCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/rg_gender"
+        android:layout_marginTop="70dp"
+        android:checked="true"
+        android:text="team2"
+        android:textColor="@android:color/black" />
+
+    <CheckBox
+        android:id="@+id/myCheckbox_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/rg_gender"
+        android:layout_marginTop="50dp"
+        android:checked="true"
+        android:text="team1"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp">
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@android:color/black" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/myCheckbox"
+        android:layout_marginTop="21dp"
+        android:text="TextView"
+        tools:text='"khai báo thông tin"' />
+
+    <Button
+        android:id="@+id/buttonSubmit_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="96dp"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/Textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="136dp"
+        android:text="TextView" />
+</RelativeLayout>
